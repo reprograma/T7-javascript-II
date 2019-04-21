@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+
+*:focus {
+  outline: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Playfair Display', serif;
+  text-align: center;
+  background: #FFEA80;
+  color: #323232;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@media (max-width: 1199px) {
+  .container {
+    width: 100%;
+    padding: 0 2%;
+  }
+}
+
+.link {
+  color: #196b9e;
+  margin-bottom: 5px;
+  word-break: break-all;
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+  border: 0 none;
+  cursor: pointer;
+}
+
+.btn:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+.btn-green {
+  background-color: #2ecc71;
+  box-shadow: 0px 5px 0px 0px #15B358;
+  margin-right: 10px;
+  margin-left: 65px;
+}
+
+.btn-green:hover {
+  background-color: #48E68B;
+}
+
+.btn-orange {
+  background-color: #e67e22;
+  box-shadow: 0px 5px 0px 0px #CD6509;
+}
+
+.btn-orange:hover {
+  background-color: #FF983C;
+}
+
+@media (max-width: 768px) {
+  .btn {
+    display: block;
+    margin: 0 auto 10px auto;
+
+  }
+}
+
+.display-movie-title {
+  margin-top: 40px;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+}
+
+.title {
+  font-size: 5vw;
+  margin: 20px 0 40px 0;
+}
+
+.title .title-part {
+  font-weight: 600;
+  font-family: 'Fredoka One', sans-serif;
+  text-transform: uppercase;
+  color: #FFFFD9;
+}
+
+.title .title-part.line-1 {
+  text-shadow: #ff6239 1px 1px, #ff6339 2px 2px, #ff643a 3px 3px, #ff663a 4px 4px, #ff673b 5px 5px, #ff683c 6px 6px, #ff693c 7px 7px, #ff6a3d 8px 8px, #ff6b3d 9px 9px, #ff6c3e 10px 10px, #ff6e3f 11px 11px, #ff6f3f 12px 12px, #ff7040 13px 13px, #ff7140 14px 14px, #ff7241 15px 15px, #ff7342 16px 16px, #ff7442 17px 17px, #ff7643 18px 18px, #ff7743 19px 19px, #ff7844 20px 20px, #ff7945 21px 21px, #ff7a45 22px 22px, #ff7b46 23px 23px, #ff7c46 24px 24px, #ff7e47 25px 25px, #ff7f48 26px 26px, #ff8048 27px 27px, #ff8149 28px 28px, #ff8249 29px 29px, #ff834a 30px 30px, #ff844b 31px 31px, #ff864b 32px 32px, #ff874c 33px 33px, #ff884c 34px 34px, #ff894d 35px 35px, #ff8a4e 36px 36px, #ff8b4e 37px 37px, #ff8c4f 38px 38px, #ff8e4f 39px 39px, #ff8f50 40px 40px, #ff9051 41px 41px, #ff9151 42px 42px, #ff9252 43px 43px, #ff9352 44px 44px, #ff9453 45px 45px, #ff9654 46px 46px, #ff9754 47px 47px, #ff9855 48px 48px, #ff9955 49px 49px, #ff9a56 50px 50px, #ff9b57 51px 51px, #ff9c57 52px 52px, #ff9e58 53px 53px, #ff9f58 54px 54px, #ffa059 55px 55px, #ffa15a 56px 56px, #ffa25a 57px 57px, #ffa35b 58px 58px, #ffa45b 59px 59px, #ffa65c 60px 60px, #ffa75d 61px 61px, #ffa85d 62px 62px, #ffa95e 63px 63px, #ffaa5e 64px 64px, #ffab5f 65px 65px, #ffac60 66px 66px, #ffad60 67px 67px, #ffaf61 68px 68px, #ffb061 69px 69px, #ffb162 70px 70px, #ffb263 71px 71px, #ffb363 72px 72px, #ffb464 73px 73px, #ffb564 74px 74px, #ffb765 75px 75px, #ffb866 76px 76px, #ffb966 77px 77px, #ffba67 78px 78px, #ffbb67 79px 79px, #ffbc68 80px 80px, #ffbd69 81px 81px, #ffbf69 82px 82px, #ffc06a 83px 83px, #ffc16a 84px 84px, #ffc26b 85px 85px, #ffc36c 86px 86px, #ffc46c 87px 87px, #ffc56d 88px 88px, #ffc76d 89px 89px, #ffc86e 90px 90px, #ffc96f 91px 91px, #ffca6f 92px 92px, #ffcb70 93px 93px, #ffcc70 94px 94px, #ffcd71 95px 95px, #ffcf72 96px 96px, #ffd072 97px 97px, #ffd173 98px 98px, #ffd273 99px 99px, #ffd374 100px 100px, #ffd475 101px 101px, #ffd575 102px 102px, #ffd776 103px 103px, #ffd876 104px 104px, #ffd977 105px 105px, #ffda78 106px 106px, #ffdb78 107px 107px, #ffdc79 108px 108px, #ffdd79 109px 109px, #ffdf7a 110px 110px, #ffe07b 111px 111px, #ffe17b 112px 112px, #ffe27c 113px 113px, #ffe37c 114px 114px, #ffe47d 115px 115px, #ffe57e 116px 116px, #ffe77e 117px 117px, #ffe87f 118px 118px, #ffe97f 119px 119px, #ffea80 120px 120px, #FF6138 0px 0px;
+}
+
+.title .title-part.line-2 {
+  text-shadow: #ffb502 1px 1px, #ffb604 2px 2px, #ffb706 3px 3px, #ffb809 4px 4px, #ffb90b 5px 5px, #ffb90d 6px 6px, #ffba0f 7px 7px, #ffbb11 8px 8px, #ffbc13 9px 9px, #ffbd15 10px 10px, #ffbe17 11px 11px, #ffbf1a 12px 12px, #ffc01c 13px 13px, #ffc11e 14px 14px, #ffc220 15px 15px, #ffc222 16px 16px, #ffc324 17px 17px, #ffc426 18px 18px, #ffc529 19px 19px, #ffc62b 20px 20px, #ffc72d 21px 21px, #ffc82f 22px 22px, #ffc931 23px 23px, #ffca33 24px 24px, #ffcb35 25px 25px, #ffcb37 26px 26px, #ffcc3a 27px 27px, #ffcd3c 28px 28px, #ffce3e 29px 29px, #ffcf40 30px 30px, #ffd042 31px 31px, #ffd144 32px 32px, #ffd246 33px 33px, #ffd349 34px 34px, #ffd44b 35px 35px, #ffd44d 36px 36px, #ffd54f 37px 37px, #ffd651 38px 38px, #ffd753 39px 39px, #ffd855 40px 40px, #ffd957 41px 41px, #ffda5a 42px 42px, #ffdb5c 43px 43px, #ffdc5e 44px 44px, #ffdd60 45px 45px, #ffdd62 46px 46px, #ffde64 47px 47px, #ffdf66 48px 48px, #ffe069 49px 49px, #ffe16b 50px 50px, #ffe26d 51px 51px, #ffe36f 52px 52px, #ffe471 53px 53px, #ffe573 54px 54px, #ffe675 55px 55px, #ffe677 56px 56px, #ffe77a 57px 57px, #ffe87c 58px 58px, #ffe97e 59px 59px, #ffea80 60px 60px, #FFB400 0px 0px;
+}
+
+.title .title-part.line-3 {
+  text-shadow: #03a488 1px 1px, #05a488 2px 2px, #08a588 3px 3px, #0aa688 4px 4px, #0da788 5px 5px, #0fa788 6px 6px, #12a887 7px 7px, #14a987 8px 8px, #17a987 9px 9px, #1aaa87 10px 10px, #1cab87 11px 11px, #1fac87 12px 12px, #21ac87 13px 13px, #24ad87 14px 14px, #26ae87 15px 15px, #29ae87 16px 16px, #2baf87 17px 17px, #2eb087 18px 18px, #30b086 19px 19px, #33b186 20px 20px, #36b286 21px 21px, #38b386 22px 22px, #3bb386 23px 23px, #3db486 24px 24px, #40b586 25px 25px, #42b586 26px 26px, #45b686 27px 27px, #47b786 28px 28px, #4ab886 29px 29px, #4db886 30px 30px, #4fb986 31px 31px, #52ba85 32px 32px, #54ba85 33px 33px, #57bb85 34px 34px, #59bc85 35px 35px, #5cbd85 36px 36px, #5ebd85 37px 37px, #61be85 38px 38px, #63bf85 39px 39px, #66bf85 40px 40px, #69c085 41px 41px, #6bc185 42px 42px, #6ec285 43px 43px, #70c284 44px 44px, #73c384 45px 45px, #75c484 46px 46px, #78c484 47px 47px, #7ac584 48px 48px, #7dc684 49px 49px, #80c784 50px 50px, #82c784 51px 51px, #85c884 52px 52px, #87c984 53px 53px, #8ac984 54px 54px, #8cca84 55px 55px, #8fcb84 56px 56px, #91cb83 57px 57px, #94cc83 58px 58px, #96cd83 59px 59px, #99ce83 60px 60px, #9cce83 61px 61px, #9ecf83 62px 62px, #a1d083 63px 63px, #a3d083 64px 64px, #a6d183 65px 65px, #a8d283 66px 66px, #abd383 67px 67px, #add383 68px 68px, #b0d482 69px 69px, #b3d582 70px 70px, #b5d582 71px 71px, #b8d682 72px 72px, #bad782 73px 73px, #bdd882 74px 74px, #bfd882 75px 75px, #c2d982 76px 76px, #c4da82 77px 77px, #c7da82 78px 78px, #c9db82 79px 79px, #ccdc82 80px 80px, #cfdd82 81px 81px, #d1dd81 82px 82px, #d4de81 83px 83px, #d6df81 84px 84px, #d9df81 85px 85px, #dbe081 86px 86px, #dee181 87px 87px, #e0e181 88px 88px, #e3e281 89px 89px, #e6e381 90px 90px, #e8e481 91px 91px, #ebe481 92px 92px, #ede581 93px 93px, #f0e680 94px 94px, #f2e680 95px 95px, #f5e780 96px 96px, #f7e880 97px 97px, #fae980 98px 98px, #fce980 99px 99px, #ffea80 100px 100px, #00A388 0px 0px;
+}
+
+/* https://codepen.io/dariocorsi/pen/jqxERJ */
+
+@media (max-width: 768px) {
+  .title .title-part.line-1,
+  .title .title-part.line-2,
+  .title .title-part.line-3 {
+    text-shadow: none;
+  }
+
+  .title .title-part {
+    color: #dc9fa1;
+  }
+
+  .title {
+    font-size: 10vw;
+  }
+}

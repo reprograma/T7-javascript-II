@@ -1,0 +1,128 @@
+/* GERAL */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+	background-color: #462755;
+}
+
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.login__button{ 
+    background-color: #ECDDF3;
+    color: #000000;
+    border-radius: 50px;
+    border: 0;
+    padding: 10px 20px;
+    width: 130px;
+    font-weight: bold;
+    font-size: 16px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.login__button:hover{
+    background-color: #7F479B;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+/* FORM */
+.login-modal{
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: none;
+}
+
+.login-modal__container{
+    width: 30%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.login-modal__title{
+    color: #ECDDF3;
+    position: absolute;
+    top: -60px;
+}
+
+.login-modal__subtitle{
+    color: #ECDDF3;
+    background-color: #7F479B;
+    padding: 0 5px;
+    font-size: 20px;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.login-modal__form-group{
+    position: relative;
+    width: 100%;
+}
+
+.login-modal__label{
+    display: block;
+    color: #ffffff;
+}
+
+.login-modal__input{
+    width: 100%;
+    border-radius: 2px;
+    border: 1px solid #ffffff;
+    height: 40px;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.login-modal__button {    
+    background-color: #ECDDF3;
+    color: #000000;
+    border-radius: 50px;
+    border: 0;
+    padding: 10px 20px;
+    width: 130px;
+    position: absolute;
+    bottom: -50px;
+    font-weight: bold;
+    left: 50%;
+    margin-left: -65px;
+    font-size: 16px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.login-modal__button:hover{
+    background-color: #7F479B;
+    color: #ffffff;
+    transition: 0.3s;
+}
+
+.login-modal__button-close{  
+    background:0 0;
+    color: #ffffff;
+    border: 0;
+    padding: 10px 20px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-weight: bold;
+    font-size: 36px;
+    transition: 0.3s;
+    cursor: pointer;
+}

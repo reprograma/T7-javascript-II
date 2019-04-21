@@ -1,0 +1,23 @@
+/* GERAL */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin:0 10%;
+    margin-top:150px;
+}
+
+h1{
+    color: #7F479B;
+    font-size: 30px;
+}
+
+.HERO{
+    background-color: #c6c6c6;
+    padding: 10px;
+    border-radius: 5px;
+
+}

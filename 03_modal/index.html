@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Modal</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="login">
+            <h1 class="login__title">Seja bem vindo!</h1>
+            <h2 class="login__subtitle">Entre com suas credenciais para continuar</h2>
+            <button class="button login__button">Login</button>
+        </div>
+    </div>
+    <div class="login-modal">
+        <button class="button login-modal__button-close" aria-label="Fechar modal de login">&times;</button>
+        <div class="login-modal__container">
+            <form action="" class="login-modal__form">
+                <div class="login-modal__form-group">
+                    <label for="login-modalInputEmail" class="login-modal__label">Email</label>
+                    <input type="email" class="login-modal__input" id="login-modalInputEmail" placeholder="email@exemplo.com.br">
+                </div>
+                <div class="login-modal__form-group">
+                    <label for="login-modalInputPassword" class="login-modal__label">Senha</label>
+                    <input type="password" class="login-modal__input" id="login-modalInputPassword" placeholder="senha123">
+                </div>
+                <div class="login-modal__form-group">
+                    <button class="button login-modal__button">Enviar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

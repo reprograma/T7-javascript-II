@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gastos</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="transacao">
+            <h1 class="transacao__title title">Lista de gastos</h1>
+            <h2 class="transacao__subtitle subtitle">Incluir nova despesa</h2>
+            <form action="" class="transacao__form">
+                <div class="transacao__form-group">
+                    <label for="transacaoInputName" class="transacao__label">Nome da transação</label>
+                    <input type="text" class="transacao__input" id="transacaoInputName" placeholder="Restaurante por Quilo">
+                </div>
+                <div class="transacao__form-group">
+                    <label for="transacaoInputMoney" class="transacao__label">Valor</label>
+                    <input type="number" class="transacao__input" id="transacaoInputMoney" placeholder="0,00">
+                </div>
+                <div class="transacao__form-group">
+                    <label for="transacaoInputDate" class="transacao__label">Data</label>
+                    <input type="text" class="transacao__input" id="transacaoInputDate" placeholder="23/09/2018">
+                    <!-- tipo date -->
+                </div>
+                <div class="transacao__form-group">
+                    <button class="button transacao__button">Criar Transação</button>
+                </div>
+            </form>
+        </div>
+        <div class="extrato">
+            <h2 class="extrato__subtitle subtitle">Seu extrato</h2>
+            <table class="extrato__table">
+                <thead class="extrato__header">
+                    <th>Nome da transação</th>
+                    <th>Valor</th>
+                    <th>Data</th>
+                </thead>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

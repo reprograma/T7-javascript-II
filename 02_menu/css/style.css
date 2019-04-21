@@ -1,0 +1,53 @@
+/* GERAL */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.sidebar-menu{
+    background-color: white;
+    box-shadow: 1px 0px 15px 0px;
+    height: 100vh;
+    position: fixed;
+    width: 430px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sidebar-menu__button{
+    position: absolute;
+    top: 15px;
+    right: -70px;
+    border: 0;
+    background: 0 0;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.sidebar-menu__nav{
+    height: 60%;
+}
+
+.sidebar-menu__list{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.sidebar-menu__item-list{
+    list-style: none;
+
+}
+
+.sidebar-menu__link{
+    color: inherit;
+    text-decoration: none;
+}
