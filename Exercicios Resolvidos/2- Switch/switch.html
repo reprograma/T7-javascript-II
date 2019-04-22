@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>Exercicio - Switch</title>
+   Digite um mês de 1 até 12:<input id="numero" type="number"> <br />
+   <button onclick="exibir()">Exibir mês</button>
+
+   <script type="text/javascript">
+
+    function exibir(){
+     var mes = parseInt(document.getElementById("numero").value);
+     
+     switch(mes){
+      case 1:  alert("Janeiro");
+      case 2:  alert("Fevereiro");
+      case 3:  alert("Março");
+      case 4:  alert("Abril");
+      case 5:  alert("Maio");
+      case 6:  alert("Junho");
+      case 7:  alert("Julho");
+      case 8:  alert("Agosto");
+      case 9:  alert("Setembro");
+      case 10: alert("Outubro");
+      case 11: alert("Novembro");
+      case 12: alert("Dezembro");
+     }
+    }
+ </script>
+
+ </head>
+</html>
