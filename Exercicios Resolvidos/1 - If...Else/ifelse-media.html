@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+ <head>
+
+   <title>Exercicio If ... Else</title>
+
+   Primeira nota <input id="nota1" type="number"> <br />
+   Segunda  nota <input id="nota2" type="number"> <br />
+
+   <button onclick="media()">Calcular Média</button>
+
+   <script type="text/javascript">
+
+    function media(){
+     let nota1 = parseFloat(document.getElementById("nota1").value);
+     let nota2 = parseFloat(document.getElementById("nota2").value);
+
+     let media = (nota1 + nota2)/2 ;
+
+     if(media >= 7)
+      if(media==10)
+       alert("Uau! Aprovado com distinção");
+      else
+       alert("Parabéns, aprovado! Media "+media);
+     else
+      alert("Reprovado!")
+
+    }
+ </script>
+
+ </head>
+</html>
